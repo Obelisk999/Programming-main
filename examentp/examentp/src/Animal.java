@@ -8,6 +8,7 @@ public class Animal {
     public Animal(String nom, int age) {
         this.nom = nom;
         this.age = age;
+        listeVaccin = new ArrayList<>();
     }
 
     public String getNom() {
@@ -34,9 +35,10 @@ public class Animal {
         listeVaccin.remove(vaccin);
     }
 
-    public void afficherVaccins() {
-        for (String vaccin : listeVaccin) {
-            System.out.println(vaccin);
+    public void afficherVaccins() 
+    {
+        for (int i =0; i < listeVaccin.size(); i++) {
+            System.out.println(listeVaccin.get(i));
         }
     }
 
@@ -50,7 +52,7 @@ public class Animal {
 
     @Override
     public String toString() {
-        return "Animal [nom=" + nom + ", age=" + age + ", listeVaccin=" + (listeVaccin != null ? listeVaccin : "vide") + "]";
+        return "Animal [nom=" + nom + ", age=" + age + ", listeVaccin=" + listeVaccin + "]";
     }
     
 }
