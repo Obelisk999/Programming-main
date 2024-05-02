@@ -1,0 +1,29 @@
+body{
+    padding: 100px;
+    background-color: white;
+}
+
+h1,h2{
+    font-family: Arial;
+    color: aqua;
+}
+
+ul{
+    list-style: square;
+}
+
+ol{
+    list-style: upper-roman;
+    text-transform: uppercase;
+}
+hr{
+    width: 80%;
+    border: 2px solid yellow;
+
+}
+
+a{
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}

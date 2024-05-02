@@ -1,0 +1,149 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "MultiTable",
+      "request": "launch",
+      "mainClass": "Java.Me.MultiTable",
+      "projectName": "Programming-main_b213649c"
+    },
+    {
+      "name": "(Windows) Attach",
+      "type": "cppvsdbg",
+      "request": "attach"
+    },
+    {
+      "name": "(Windows) Launch",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "externalTerminal"
+    },
+    {
+      "name": "(gdb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/path/to/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "type": "java",
+      "name": "TestAnimal",
+      "request": "launch",
+      "mainClass": "TestAnimal",
+      "projectName": "Programming-main_b213649c"
+    },
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "test",
+      "projectName": "Programming_5f9d0d30"
+    },
+    {
+      "type": "java",
+      "name": "GUI",
+      "request": "launch",
+      "mainClass": "GUI",
+      "projectName": "Programming_5f9d0d30"
+    },
+    {
+      "type": "java",
+      "name": "Input",
+      "request": "launch",
+      "mainClass": "Input",
+      "projectName": "Programming_5f9d0d30"
+    },
+    {
+      "type": "java",
+      "name": "hello",
+      "request": "launch",
+      "mainClass": "Java.Brocode.Test.hello",
+      "projectName": "Programming_5f9d0d30"
+    },
+    {
+      "type": "java",
+      "name": "TD4",
+      "request": "launch",
+      "mainClass": "TD.TD4",
+      "projectName": "Programming_5f9d0d30"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Programming_5f9d0d30"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "Programming_5f9d0d30"
+    },
+    {
+      "type": "java",
+      "name": "Brocode",
+      "request": "launch",
+      "mainClass": "Brocode",
+      "projectName": "Programming_5f9d0d30"
+    },
+    {
+      "type": "java",
+      "name": "td2",
+      "request": "launch",
+      "mainClass": "td.td2",
+      "projectName": "Programming_5f9d0d30"
+    },
+    {
+      "type": "java",
+      "name": "simple",
+      "request": "launch",
+      "mainClass": "simple",
+      "projectName": "Programming_5f9d0d30"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Abdoulrazak/Desktop/Programming-main/C/Sem4/TP5",
+      "program": "c:/Users/Abdoulrazak/Desktop/Programming-main/C/Sem4/TP5/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ],
+  "version": "2.0.0"
+}
